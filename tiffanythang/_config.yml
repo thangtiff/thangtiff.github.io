@@ -36,7 +36,7 @@ gems:
   - jekyll-feed
 exclude:
   - Gemfile 
-  - Gemfile.lock
+  - Gemfile.lock 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
