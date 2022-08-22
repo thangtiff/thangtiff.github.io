@@ -39,7 +39,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 author: Tiffany Thang
 email: tthang@ucsc.edu
-avatar: assets\images\Profile2.png
+avatar: assets\images\Profile2v1.png
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "" # the subpath of your site, e.g. /blog
