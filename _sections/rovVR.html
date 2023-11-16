@@ -7,44 +7,51 @@ order: 6
 <div class = "row">
     <div class = "column">
         
- 
+        <h3 style="text-align: left;">Role: </h3> <br> <p style="text-align: left;">UX Researcher</p>
         <h3 style ="text-align: left;">Problem: </h3>
-        <p style = "text-align: justify;"> <a href="https://doi.org/10.1108/IR-01-2015-0010" target="_blank" rel = "noopener noreferrer">Remotely Operated Vehicles (ROVs)</a> are tethered, teleoperated
-        underwater robots used for marine research and in the maintainence of offshore oil and gas rigs 
-        in place of human divers in dangerous or difficult situations.
-        Operating ROVs can be challenging, as operators will need to rely on data from its cameras
-        and sensors to provide information about the subsea environment. Distortion effects and lack of depth cues
-        can make performing subsea work with an ROV difficult. 
-        </p>
-
+        <ul style = "text-align: left;"> 
+        <br>    
+        <li><a href="https://doi.org/10.1108/IR-01-2015-0010" target="_blank" rel = "noopener noreferrer">Remotely Operated Vehicles (ROVs)</a> are tethered, teleoperated
+        underwater robots used for marine research in place of human divers in dangerous or difficult situations</li> <br>
+        <li>Operating ROVs can be challenging, as operators rely on data from cameras
+        and sensors, where distortion effects and lack of depth cues can make performing subsea work difficult </li>
+        </ul>
+        <h3 style="text-align: left;"> Solution: </h3>
+        <ul style = "text-align: left;">
+        <br>
+        <li>VR headsets may provide a method of viewing subsea environments more accurately than 2D screens </li> <br>
+        <li> In collaboration with the <a href="https://www.mbari.org/" target="_blank" rel="noopener noreferrer">Monterey Bay Aquarium Research Institute (MBARI)</a> 
+            and the <a href="https://www.olin.edu/" target="_blank" rel="noopener noreferrer">Olin School of Engineering</a>, I evaluated the usability of a VR application for ROV operation</li>
+        </ul>
         <div class="image">
-            <img src="{{'assets/images/ROVVR_Photos/PXL_20210611_180727350.MP.jpg'}}" alt ="Remotely Operated Underwater Vehicle (ROV) in the MBARI Test Tank">
+            <img src="{{'assets/images/ROVVR_Photos/PXL_20210611_201044839.MP.jpg'}}" width=500 height=400 alt="Participant wearing HTC Cosmos VR system while piloting ROV"/>
         </div>
-
+ 
 
     </div>
 
     <div class = "column">
 
         <div class="image">
-            <img src="{{'assets/images/ROVVR_Photos/PXL_20210611_201044839.MP.jpg'}}" width=500 height=400 alt="Participant wearing HTC Cosmos VR system while piloting ROV"/>
+            <img src="{{'assets/images/ROVVR_Photos/PXL_20210611_180727350.MP.jpg'}}" alt ="Remotely Operated Underwater Vehicle (ROV) in the MBARI Test Tank">
         </div>
 
         <!--<div class ="image">
             <img src="{{'assets/images/ROVVR_Photos/PXL_20210618_235112116.MP.jpg'}}"  alt="Underwater target">
         </div>-->
-        <br><br>
-        <h3 style="text-align: left;">Proposed Solution:</h3>
-        <p style="text-align: justify"> 
-        In collaboration with the <a href="https://www.mbari.org/" target="_blank" rel="noopener noreferrer">Monterey Bay Aquarium Research Institute (MBARI)</a> 
-        and the <a href="https://www.olin.edu/" target="_blank" rel="noopener noreferrer">Olin School of Engineering</a>, I worked with marine biologists, ROV pilots, 
-        UX researchers and programmers in evaluating the usability of a VR application to help pilots operate underwater remotely operated vehicles (ROVs) for 
-        scientific marine research. Our focus was on evaluating the differences in usability, cognitive load and task performance when comparing existing ROV teleoperation formats with 
-        2D monitors to a monosocpic and stereoscopic ROV VR teleoperation interface. 
+        <br><br><br>
+        <h3 style="text-align: left;">Methods:</h3><br>
+        <ul style="text-align: left"> 
+            <li>Conducted user study evaluting the following 3 conditions: stereoscopic VR, monoscopic VR and multimonitor desktop ROV operation displays to determine ROV operation 
+                efficiency with a midwater capture task</li> <br>
+            <li>Used NASA TLX, System Usability Scale and Slater-Usoh-Steed Presence Questionnaire to measure cognitive task load, usability and presence for each condition</li><br>
+            <li>Participants' were timed on their performance on the midwater capture tasks and were given a survey to provide qualitative feedback on 
+                their experience operating the ROV for each condition</li><br>
+            <li>Cybersickness was also measured using the Virtual Reality Sickness Questionnaire to identify any usability issues with the VR conditions </li>
         
         <!--More details on our work can be found in 
         <a href ="https://programs.sigchi.org/vrst/2021/program/content/66992" target="_blank" rel="noopener noreferrer"> our publication in the proceedings of VRST 2021, which won Best Paper. </a> -->
-        </p>
+        </ul>
 
     </div>
 
@@ -52,14 +59,16 @@ order: 6
 
 
 <div class = "row">
-    <h3 style = "text-align: left;">As a UX Researcher for this project, I ...</h3>
+    <h3 style = "text-align: left;">Results and Takeaways:</h3><br>
     <br>
     <ul style = "text-align: left;">
-        <li>Conducted a literature review regarding the usability and human factors issues in ROV operation and the use of VR technologies in piloting ROVs</li>
-        <li>Designed an empirical user study evaluating usability, task performance, presence and cognitive load of operating an ROV using exisiting controls versus
-            monoscopic and stereoscopic VR interfaces for ROV operation </li>
-        <li>Ran user study with 12 participants using the MBARI test tank, and collected data using the NASA TLX, System Usability Scale and Slater-Usoh-Steed Presence Questionnaire</li>
-        <li><a href ="https://programs.sigchi.org/vrst/2021/program/content/66992" target="_blank" rel="noopener noreferrer">Wrote and submitted manuscript detailing user study and findings to ACM VRST 2021, winning the "Best Paper" award</a> </li>
+        <li>The stereoscopic VR condition yields significant improvements in task performance and reduces cognitive load for ROV pilots </li><br>
+        <li>With the stereoscopic VR condition, ROV pilots completed capture tasks in less than half the time it took them with the multimonitor desktop condition, 
+            suggesting that the implementation of stereoscopic VR controls for ROV operation could help reduce costs, as the average cost of a dive can be costly ($3600/hr)
+        </li><br>
+        <li>Cybersickness was reduced and presence was improved through the stereoscopic VR condition, improving the awareness of participants during ROV operation</li><br>
+        <li><a href ="https://programs.sigchi.org/vrst/2021/program/content/66992" target="_blank" rel="noopener noreferrer">
+            Findings presented and published to ACM VRST 2021, winning the "Best Paper" award</a> </li>
     </ul>
 </div>
 
